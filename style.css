@@ -3,6 +3,19 @@
     src: url("../constan.ttf");
     font-style: normal;
 }
+
+header, .menu {
+    background-image: url(dynamic-og-color-image.png);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Pour la compatibilité Safari */
+}
+
 body {
     font-family:retro;
     color: whitesmoke ;
@@ -49,7 +62,6 @@ body {
 }
 
 main {
-    background-color: cadetblue;
     border-radius: 15px;
     padding: 5px;
 }

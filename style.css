@@ -1,0 +1,46 @@
+@font-face {
+    font-family: retro;
+    src: url("../constan.ttf");
+    font-style: normal;
+}
+body {
+    font-family:retro;
+    color: white ;
+}
+
+.conteneur {
+  display: flex;
+  align-items: center; /* Aligne verticalement au centre */
+  gap: 15px; /* Ajoute un espace entre l'image et le texte */
+}
+
+body {
+    background-image: url(berne.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+* { 
+  box-sizing: border-box; 
+}
+
+.menu {
+  background: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 12px;
+  background: rgba(50, 44, 104, 0.12);
+  border-radius: 6px;
+}
+
+.menu a:hover { 
+  background: rgba(255,255,255,0.22); 
+}

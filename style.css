@@ -5,7 +5,7 @@
 }
 body {
     font-family:retro;
-    color: white ;
+    color: whitesmoke ;
 }
 
 .conteneur {
@@ -15,10 +15,13 @@ body {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-image: url(berne.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    justify-content: flex-end;
 }
 
 * { 
@@ -43,4 +46,10 @@ body {
 
 .menu a:hover { 
   background: rgba(255,255,255,0.22); 
+}
+
+main {
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding: 5px;
 }

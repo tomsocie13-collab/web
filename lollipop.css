@@ -1,0 +1,68 @@
+header, .menu {
+    background-image: url(dynamic-og-color-image.png);
+}
+
+main {
+    background-image: url(dynamic-og-color-image.png);
+}
+
+header {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: retro;
+    src: url("../constan.ttf");
+    font-style: normal;
+}
+body {
+    font-family:retro;
+    color: whitesmoke ;
+}
+
+.conteneur {
+  display: flex;
+  align-items: center; /* Aligne verticalement au centre */
+  gap: 15px; /* Ajoute un espace entre l'image et le texte */
+  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+* { 
+  box-sizing: border-box; 
+}
+
+.menu {
+  padding: 12px 16px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  background: rgba(50, 44, 104, 0.12);
+  border-radius: 6px;
+}
+
+.menu a:hover { 
+  background: rgba(255,255,255,0.22); 
+}
+
+main {
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding: 5px;
+}

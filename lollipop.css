@@ -1,4 +1,4 @@
-nav, header, main {
+main {
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* Pour la compatibilité Safari */
@@ -19,6 +19,7 @@ header {
 body {
     font-family:retro;
     color: black ;
+    background-image: url(berne.png);
 }
 
 .conteneur {
@@ -46,6 +47,7 @@ body {
   border-radius: 8px;
   display: flex;
   gap: 10px;
+  
 }
 
 .menu a {
@@ -61,7 +63,6 @@ body {
 }
 
 main {
-    background-color: cadetblue;
     border-radius: 15px;
     padding: 5px;
 }

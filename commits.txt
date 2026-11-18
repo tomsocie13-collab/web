@@ -1,0 +1,60 @@
+commit e3caedb1cc527994975354d3cc2c9b0ff46ce5b2
+Author: Tom <tom.sc@eduge.ch>
+Date:   2026-11-11 13:28:23 +0100
+
+    Mise en place du HTML pour les sites touristiques, CSS changé.
+
+ histoire.html        |  6 +++---
+ index.html           |  4 ++--
+ lollipop.css         |  5 +++--
+ sitetouristique.html | 34 ++++++++++++++++++++++++++++++++++
+ sports.html          | 38 ++++++++++++++++++++++++++++++++++++++
+ style.css            | 10 ++++++----
+ 6 files changed, 86 insertions(+), 11 deletions(-)
+
+commit 86d6a7b4d4a84fb2af91ca1d950e54ac94073a27
+Author: Tom <tom.sc@eduge.ch>
+Date:   2026-11-04 15:52:10 +0100
+
+    Changement de fond et du CSS
+
+ histoire.html |  2 +-
+ lollipop.css  | 13 ++++++-------
+ sports.html   |  0
+ style.css     | 14 +++++++++++++-
+ 4 files changed, 20 insertions(+), 9 deletions(-)
+
+commit 1e51324b9ba94cd8aaeea4b670222d1e4cc91c37
+Author: Tom <tom.sc@eduge.ch>
+Date:   2026-11-04 15:12:39 +0100
+
+    Mise en place de la page Histoire
+
+ dynamic-og-color-image.png | Bin 0 -> 812 bytes
+ histoire.html              |  62 +++++++++++++++++++++++++++++++++++++++++
+ index.html                 |   7 ++---
+ lollipop.css               |  68 +++++++++++++++++++++++++++++++++++++++++++++
+ style.css                  |  11 +++++++-
+ 5 files changed, 143 insertions(+), 5 deletions(-)
+
+commit 3eccf155c105849c1c8c5f20ec6df78e8c2006a0
+Author: Tom <tom.sc@eduge.ch>
+Date:   2026-11-04 14:13:57 +0100
+
+    Peaufinement de l'index
+
+ CHE_Bern_COA.svg.png | Bin 0 -> 12618 bytes
+ berne.png            | Bin 0 -> 347568 bytes
+ constan.ttf          | Bin 0 -> 447100 bytes
+ index.html           |  24 ++++++++++++++++++++----
+ style.css            |  46 ++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 66 insertions(+), 4 deletions(-)
+
+commit e3c1008decc37ce1010886c87ca480beae304b5e
+Author: Tom <tom.sc@eduge.ch>
+Date:   2026-11-04 13:28:19 +0100
+
+    Mise en place du site
+
+ index.html | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)

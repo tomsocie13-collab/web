@@ -80,3 +80,28 @@ h1 {
   gap: 20px;
 }
 
+.section2 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 265px; 
+}
+
+.section3 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 101px; 
+}
+
+.section4 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 110px;
+}
+
+img {
+  border-radius: 10px;
+}
+

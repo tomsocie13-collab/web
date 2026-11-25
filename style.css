@@ -101,7 +101,30 @@ align-items: center;
 gap: 110px;
 }
 
+.section5 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 92px;
+}
+
+.section6 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+.section7 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 375px;
+}
+
 img {
   border-radius: 10px;
 }
+
+
 

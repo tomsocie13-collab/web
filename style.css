@@ -72,3 +72,11 @@ main {
 h1 {
   color: black;
 }
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+

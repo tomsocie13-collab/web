@@ -1,6 +1,9 @@
 # TRAVAIL COLLABORATIF AOUT
 ## Role
-Tom=Proprietaire / Adriano=Contributeur
+Adriano=Proprietaire / Tom=Contributeur
 ___
 ## Contenu ajouté
+- Ajout page allergeneve.html + information sur le vol
+
+
 
